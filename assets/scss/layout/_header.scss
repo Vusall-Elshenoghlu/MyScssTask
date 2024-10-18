@@ -1,0 +1,39 @@
+body{
+    height: 300vh;
+}
+header{
+    // background-color: $main-color;
+    // @include flex(flex,column,center,left);
+
+    // ul{
+    //     @include flex(flex,row,space-between,center);
+    // }
+}
+#head{
+    position: fixed;
+    width: 100%;
+    // background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-2.jpg");
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    .nav{
+        font-size: 30px;
+         a{color: red;
+        font-style: italic;}
+    }
+    .ul{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 17px;
+        margin-left: 200px;
+        a{
+            color: aliceblue;
+        }
+    }
+}
+
